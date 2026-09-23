@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-24",
+  "roadmapVersion": "AI-CLOUD-ROADMAP-V2",
+  "tasks": [
+    {
+      "id": "w1d1t1",
+      "day": "W01D1",
+      "type": "build",
+      "minutes": 60,
+      "text": "Install Python 3.12+, uv or venv, VS Code Python extension. Create ~/dev/learning-os repo with notes/, dsa/, mistakes.md (columns: problem · gap type · re-solve dates 1d/7d/30d). Push it."
+    }
+  ],
+  "dsa": [],
+  "studyMinutes": 0,
+  "revisionsCompleted": 0,
+  "milestones": []
+}
