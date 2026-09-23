@@ -1,0 +1,43 @@
+{
+  "name": "ai-prepboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI PrepBoard — a learning OS for the AI-Cloud engineering roadmap: daily plan, DSA, revision, Project Lab, GitHub learning history.",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run extract-roadmap && npm run validate-roadmap && next build",
+    "start": "next start",
+    "extract-roadmap": "tsx scripts/extract-roadmap.ts",
+    "validate-roadmap": "tsx scripts/validate-roadmap.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@fontsource/ibm-plex-sans": "^5.2.8",
+    "@radix-ui/react-dialog": "1.1.23",
+    "cmdk": "1.1.1",
+    "idb-keyval": "6.3.0",
+    "lucide-react": "1.47.0",
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "recharts": "3.10.1",
+    "zod": "4.6.5",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^22.19.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "^19.2.0",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vitest": "5.0.1"
+  }
+}

@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Design tokens — carried over from the original Learning OS: navy + amber, hairlines, quiet surfaces. */
+:root,
+[data-theme="dark"] {
+  --bg: #0d1826;
+  --surface: #132236;
+  --surface-2: #1a2c43;
+  --line: #24384f;
+  --line-strong: #33506f;
+  --ink: #e6edf4;
+  --muted: #8fa2b6;
+  --faint: #7089a3;
+  --accent: #f0b54a;
+  --accent-ink: #1c1405;
+  --accent-soft: rgba(240, 181, 74, 0.14);
+  --good: #5fcf9e;
+  --good-soft: rgba(95, 207, 158, 0.14);
+  --bad: #f07a6e;
+  --bad-soft: rgba(240, 122, 110, 0.14);
+  --info: #7fb2f0;
+  --info-soft: rgba(127, 178, 240, 0.14);
+  --cell-0: #1b2f47;
+  --shadow: none;
+  color-scheme: dark;
+}
+[data-theme="light"] {
+  /* Same brand as dark (amber + navy), tuned for AA contrast on white. */
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --surface-2: #f0f2f5;
+  --line: #e1e4ea;
+  --line-strong: #c5cbd5;
+  --ink: #111827;
+  --muted: #4b5563;
+  --faint: #6b7280;
+  --accent: #b45309;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(217, 119, 6, 0.12);
+  --good: #15803d;
+  --good-soft: rgba(21, 128, 61, 0.1);
+  --bad: #b91c1c;
+  --bad-soft: rgba(185, 28, 28, 0.08);
+  --info: #1d4ed8;
+  --info-soft: rgba(29, 78, 216, 0.08);
+  --cell-0: #e7eaee;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+  background: var(--accent-soft);
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+a {
+  color: inherit;
+}
+code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.05em 0.3em;
+}
+.prose-text p + p {
+  margin-top: 0.6rem;
+}
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
