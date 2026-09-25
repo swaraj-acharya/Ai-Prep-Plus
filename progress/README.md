@@ -1,11 +1,11 @@
 # My AI-Cloud roadmap progress
 
-Tracked with AI PrepBoard. Updated 2026-09-24.
+Tracked with AI PrepBoard. Updated 2026-09-25.
 
 | | Progress |
 |---|---|
-| **Roadmap tasks** | **1** of 1,481 (0%) |
-| Current position | Week 1, day 1 — Dev environment + repos |
+| **Roadmap tasks** | **3** of 1,481 (0%) |
+| Current position | Week 1, day 2 — Diagnostic |
 | DSA | 0 of 175 solved · 0 spaced revisions |
 | Mastery checkpoints | 0 of 20 |
 | Phase gates | 0 of 7 passed |
@@ -17,6 +17,7 @@ Current streak: **0 days** (daily goal: 3 study units) · longest 0 · 0 active 
 
 | Day | Tasks | DSA | Units | Goal |
 |---|---|---|---|---|
+| 2026-09-25 | 2 | 0 | 2 |  |
 | 2026-09-24 | 1 | 0 | 1 |  |
 | 2026-09-23 | 0 | 0 | 0 |  |
 | 2026-09-22 | 0 | 0 | 0 |  |
@@ -30,13 +31,12 @@ Current streak: **0 days** (daily goal: 3 study units) · longest 0 · 0 active 
 | 2026-09-14 | 0 | 0 | 0 |  |
 | 2026-09-13 | 0 | 0 | 0 |  |
 | 2026-09-12 | 0 | 0 | 0 |  |
-| 2026-09-11 | 0 | 0 | 0 |  |
 
 ## Phases
 
 | Phase | Name | Progress |
 |---|---|---|
-| P0 | Launchpad | 1/23 (4%) |
+| P0 | Launchpad | 3/23 (13%) |
 | P1 | Foundations + Cloud Core | 0/210 (0%) |
 | P2 | Core SWE + Cloud Engineering | 0/275 (0%) |
 | P3 | GenAI Engineering + Retrieval | 0/244 (0%) |
@@ -49,6 +49,15 @@ Current streak: **0 days** (daily goal: 3 study units) · longest 0 · 0 active 
 ## History
 
 What I did on each of the last 7 active days. The full day-by-day list is in [HISTORY.md](HISTORY.md).
+
+### Friday, 25 September 2026
+
+2 tasks.
+
+| What | Detail |
+|---|---|
+| Completed | `W01D1` GitHub hygiene: profile photo, bio (“Full-stack engineer (MERN/TS) building LLM systems”), pin your 3 best repos, add a README to each (prob |
+| Completed | `W01D1` Set the 5-hour daily block in your real calendar for 6 days/week: DSA · main block · light block · career. |
 
 ### Thursday, 24 September 2026
 

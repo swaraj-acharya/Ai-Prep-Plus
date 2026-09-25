@@ -1,3 +1,5 @@
 [
-{"id":"8d46c4e8-fd9d-4cba-b5cd-5aaef7fdf056","occurredAt":"2026-09-23T20:09:32.271Z","localDate":"2026-09-24","tz":"Asia/Calcutta","roadmapVersion":"AI-CLOUD-ROADMAP-V2","deviceId":"873b53a0-2746-4464-a168-0dbc59d70564","type":"TASK_COMPLETED","payload":{"taskId":"w1d1t1"}}
+{"id":"8d46c4e8-fd9d-4cba-b5cd-5aaef7fdf056","occurredAt":"2026-09-23T20:09:32.271Z","localDate":"2026-09-24","tz":"Asia/Calcutta","roadmapVersion":"AI-CLOUD-ROADMAP-V2","deviceId":"873b53a0-2746-4464-a168-0dbc59d70564","type":"TASK_COMPLETED","payload":{"taskId":"w1d1t1"}},
+{"id":"71a14c7e-b923-4011-b21d-68e2220a5764","occurredAt":"2026-09-25T15:17:44.251Z","localDate":"2026-09-25","tz":"Asia/Calcutta","roadmapVersion":"AI-CLOUD-ROADMAP-V2","deviceId":"873b53a0-2746-4464-a168-0dbc59d70564","type":"TASK_COMPLETED","payload":{"taskId":"w1d1t2"}},
+{"id":"24b7ab55-5dd7-4855-9b0e-69eb33616181","occurredAt":"2026-09-25T15:17:52.202Z","localDate":"2026-09-25","tz":"Asia/Calcutta","roadmapVersion":"AI-CLOUD-ROADMAP-V2","deviceId":"873b53a0-2746-4464-a168-0dbc59d70564","type":"TASK_COMPLETED","payload":{"taskId":"w1d1t3"}}
 ]

@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-25",
+  "roadmapVersion": "AI-CLOUD-ROADMAP-V2",
+  "tasks": [
+    {
+      "id": "w1d1t2",
+      "day": "W01D1",
+      "type": "doc",
+      "minutes": 90,
+      "text": "GitHub hygiene: profile photo, bio (“Full-stack engineer (MERN/TS) building LLM systems”), pin your 3 best repos, add a README to each (problem · stack · run · screenshot). Unpin tutorial clones."
+    },
+    {
+      "id": "w1d1t3",
+      "day": "W01D1",
+      "type": "doc",
+      "minutes": 30,
+      "text": "Set the 5-hour daily block in your real calendar for 6 days/week: DSA · main block · light block · career. Add Day 7 as review/rest."
+    }
+  ],
+  "dsa": [],
+  "studyMinutes": 0,
+  "revisionsCompleted": 0,
+  "milestones": []
+}
